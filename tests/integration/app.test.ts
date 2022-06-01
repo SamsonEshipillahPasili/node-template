@@ -10,6 +10,6 @@ describe('Server Test', () => {
 
     it('should return 404 - not found', async () => {
         const response = await requester.get('/test').send();
-        expect(response.status).to.equal(404);
+        expect(response).to.have.status(404);
     });
 });
