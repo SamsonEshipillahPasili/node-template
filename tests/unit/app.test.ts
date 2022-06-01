@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+import chai, { expect } from 'chai';
 
 describe('App Test', () => {
 
@@ -6,5 +6,4 @@ describe('App Test', () => {
         var msg = 'test';
         expect(msg).to.be.ok;
     });
-
 });
